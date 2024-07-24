@@ -1,0 +1,10 @@
+
+
+.DS_Store
+
+docs/.quarto/
+
+docs/.jupyter_cache/
+
+docs/_site/
+docs/_build/

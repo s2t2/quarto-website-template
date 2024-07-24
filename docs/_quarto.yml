@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: "_build" # '_site' by default
+  preview:
+    port: 4567
+    browser: true
+
+website:
+  title: "Quarto Website Template"
+
+  site-url: https://s2t2.github.io/quarto-website-template/
+  repo-url: https://github.com/s2t2/quarto-website-template
+  repo-branch: main
+  repo-subdir: docs
+  repo-actions: [edit, issue, source]
+
+  search: true
+  page-navigation: true # adds buttons at bottom of page
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+  #sidebar:
+  #  contents:
+  #    - href: index.qmd
+  #      text: Home
+#
+  #    - section:
+  #      href: reference/index.qmd
+  #      title: "Package Reference"
+  #      contents:
+  #        - href: reference/api.Api.qmd
+  #          text: "API Reference"
+  #        - href: reference/cli.qmd
+  #          text: "CLI Reference"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    #code-copy: true
