@@ -18,24 +18,25 @@ website:
   page-navigation: true # adds buttons at bottom of page
 
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
 
-  #sidebar:
-  #  contents:
-  #    - href: index.qmd
-  #      text: Home
-#
-  #    - section:
-  #      href: reference/index.qmd
-  #      title: "Package Reference"
-  #      contents:
-  #        - href: reference/api.Api.qmd
-  #          text: "API Reference"
-  #        - href: reference/cli.qmd
-  #          text: "CLI Reference"
+  sidebar:
+    contents:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+      #- section:
+      #  href: reference/index.qmd
+      #  title: "Package Reference"
+      #  contents:
+      #    - href: reference/page-1.qmd
+      #      text: "Page 1"
+      #    - href: reference/page-2.qmd
+      #      text: "Page 2"
 
 format:
   html:
